@@ -1,5 +1,6 @@
-function bubbleSort(arr, n){
+function bubbleSort(arr){
 
+    let n = arr.length;
     let temp, ndrruar;
 
     for(let i=0; i<n-1; i++){
@@ -21,4 +22,4 @@ function bubbleSort(arr, n){
 }
 
 
-console.log(bubbleSort([8, 4, 5, 1, 9, 7, 6, 10, 3 , 2], 10));
+console.log(bubbleSort([8, 4, 5, 1, 9, 7, 6, 10, 3 , 2]));
