@@ -1,6 +1,6 @@
-# ALGORTIMET E SORTIMIT:#
+# ALGORITMET E SORTIMIT:
 
-## BUBBLE SORTI ##
+## BUBBLE SORT ##
 
 n = elementet e vargut (vargu.length).
 extra variabla: temp edhe ndrruar.
@@ -17,7 +17,7 @@ extra variabla: temp edhe ndrruar.
 
 
 
-## SELECTION SORTI ##	
+## SELECTION SORT ##	
 
 n = elementet e vargut (vargu.length).
 extra variabla: temp.
@@ -35,7 +35,7 @@ extra variabla: temp.
 
 
 
-## SHELL SORTI ##
+## SHELL SORT ##
 
 n = elementet e vargut (vargu.length).
 gap = n/2.
@@ -54,7 +54,7 @@ gap = n/2.
 
 
 
-## INSERTION SORTI ##
+## INSERTION SORT ##
 		
 - ni for loop meniher qe iteron prej i=0 deri te i<vargu.length (pra deri tek gjatsia e vargut).
 - pastaj caktojm variablen elementiQePoSortohet=vargu[i], dhe j=i-1.
@@ -64,11 +64,12 @@ gap = n/2.
 
 -printimi i vargut: console.log(insertionSort([8, 4, 5, 1, 9, 7, 6, 10, 3 , 2])); - PRA PRINTOJM FUNKSIONIN QE KA SI PARAMTER VARGUN E JAPUR.
 
+#  
+#
+#
+#
 
-
-
-
-# ALGORTIMET E KERKIMIT:#
+# ALGORITMET E KERKIMIT:
 
 ## LINEAR/SEKUENCIAL SEARCH ##
 
