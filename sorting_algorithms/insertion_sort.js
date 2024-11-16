@@ -1,13 +1,13 @@
 function insertionSort(vargu){
     for(let i=0; i<vargu.length; i++){
-        let pozitaKyqe = vargu[i];
+        let elementiQePoSortohet = vargu[i];
         let j=i-1;
 
-        while(vargu[j] > pozitaKyqe){
+        while(vargu[j] > elementiQePoSortohet){
             vargu[j+1] = vargu[j];
             j = j-1;
         }
-        vargu[j+1] = pozitaKyqe;
+        vargu[j+1] = elementiQePoSortohet;
     }
     return vargu;
 }

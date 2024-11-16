@@ -1,11 +1,13 @@
 function shellSort(vargu) {
 
-    let nrElementeve = vargu.length;
-    let gap = Math.floor(nrElementeve / 2);
+    let n = vargu.length;
+    let gap = (n / 2);
+    let temp;
 
     for (gap; gap > 0; gap = Math.floor(gap / 2)) {
-        for (let i = gap; i < nrElementeve; i++) {
-            let temp = vargu[i];
+        for (let i = gap; i < n; i++) {
+            
+            temp = vargu[i];
             let j;
             
             for (j = i; j >= gap && vargu[j - gap] > temp; j -= gap) {
