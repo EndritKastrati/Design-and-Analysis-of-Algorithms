@@ -1,6 +1,7 @@
 function selectionSort(vargu){
 
     let n = vargu.length;
+    let temp;
 
     for(let i=0; i<n-1; i++){
 
@@ -11,7 +12,7 @@ function selectionSort(vargu){
             }
         }
 
-        let temp = vargu[i];
+        temp = vargu[i];
         vargu[i] = vargu[min_index];
         vargu[min_index] = temp;
     }
