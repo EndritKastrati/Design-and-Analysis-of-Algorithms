@@ -14,7 +14,7 @@ function binarySearch(array, numKerkuar){
             majt = mesi + 1;
         } 
         else{
-            djatht = mesi + 1
+            djatht = mesi - 1;
         }
 
     }
@@ -22,4 +22,4 @@ function binarySearch(array, numKerkuar){
 }
 
 
-console.log(binarySearch([10, 20, 30, 40, 50, 60, 70, 80, 90, 100],  90));
+console.log(binarySearch([10, 20, 30, 40, 50, 60, 70, 80, 90, 100],  10));
