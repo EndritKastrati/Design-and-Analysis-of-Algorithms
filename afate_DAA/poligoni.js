@@ -5,7 +5,7 @@ function insertionSort(nums){
         let elementiQePoSortohet = nums[i];
         let j=i-1;
 
-        while(nums[j] > elementiQePoSortohet){
+        while(nums[j] > elementiQePoSortohet){          // funksioni qe sorton vargun (kusht me vazhdu detyren).
             nums[j+1] = nums[j];
             j = j-1;
         }
@@ -18,7 +18,7 @@ function insertionSort(nums){
         if (nums.length < 3) return -1;
         
         let shumaAntareveVargut = 0;
-        for(let i=0; i<nums.length; i++){
+        for(let i=0; i<nums.length; i++){           // me ket for-loop llogarisim shumen e krejt antarve ne varg.
             shumaAntareveVargut += nums[i];
         }
 
@@ -27,7 +27,7 @@ function insertionSort(nums){
             let largest = nums[i];
             let remainingSum = shumaAntareveVargut - largest;
             
-            if (remainingSum > largest) {
+            if (remainingSum > largest) {                           // logjika e detyres me poligona.
                 return shumaAntareveVargut;
             }
             

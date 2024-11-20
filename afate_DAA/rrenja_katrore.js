@@ -15,26 +15,26 @@ function rrenja_katrore(numri){
         return numri;
     }
 
-    let left = 1;
-    let right = numri;
+    let majt = 1;
+    let djatht = numri;
     let rezultati = 0;
 
-    while(left <= right){
-        let mid = Math.floor((left+right) / 2);
+    while(majt <= djatht){
+        let mesi = Math.floor((majt+djatht) / 2);
 
-        if(mid*mid === numri){
-            return mid;
+        if(mesi*mesi === numri){
+            return mesi;
         }
 
-        if(mid*mid < numri){
-            left = mid + 1;
-            rezultati = mid;
+        if(mesi*mesi < numri){
+            majt = mesi + 1;
+            rezultati = mesi;
         } else{
-            right = mid - 1;
+            djatht = mesi - 1;
         }
     }
     return rezultati;
 }
 
 
-console.log(rrenja_katrore(700));
+console.log(rrenja_katrore(9));  // del outputi: 3.
